@@ -1,0 +1,42 @@
+ 
+# DB Auto usate
+## Focus dell'esercizio
+Imparare a modellizzare un'entità della realtà.
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+Nome colonna        Tipo                attributi                 indici 
+
+     id              int               AUTO_INCREMENT           primary key
+
+   Modello         varchar(20)            not null
+
+   cilindrata            int              not null
+   
+   n_telaio              int             unique, nut null
+
+   colore               varchar(20)       not null
+
+    porte                 int              not null       
+   
+    anno                  year             not null  
+   
+   km_percorsi            BiGINT           not null 
+	
+   n_Riparazioni           int             not null
+ 
+   alimentata_a          varchar(20)        not null
+
+abilitata_circolazione      tinyint         not null  
+
+N_precedenti_proprietari     int              null
+
+       targa                 int           unique, nut null
+
+   
+
+
+   
+   
+    
+
